@@ -82,3 +82,9 @@ CHECK  (Salary > 0)
 ALTER TABLE BarclaysStakeHolders
 ADD CONSTRAINT EmpIDUnique_Constraint
 UNIQUE (EmployeeID)
+
+
+
+-- DROP CONSTRAINS
+ALTER TABLE BarclaysStakeHolders DROP CONSTRAINT EmpIDUnique_Constraint
+ALTER TABLE EmployeeSalaryTable DROP CONSTRAINT SalaryCheckConstraint
