@@ -5,9 +5,7 @@ CONSTRAINTS IN StructQueryLang
     2. Assigning DEFAULT value to a COLUMN of its specified datatype
     3. The COLUMN must hold UNIQUE values
     4. CHECK: Performs Criteria Check
-"""
 
-"""
 DIFFERENT WAYS TO ADD CONSTRAINTS
 
     1. While Table CREATE
