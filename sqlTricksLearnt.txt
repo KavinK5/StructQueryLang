@@ -1,1 +1,7 @@
 HIGHLIGHTLING SQL Tricks which I didn't know before 
+
+
+1. Difference between COUNT(*) AND COUNT(columnX)
+
+The former returns the total number of rows presented in the TABLE
+The latter return the NONNULL values presented in the columnX
