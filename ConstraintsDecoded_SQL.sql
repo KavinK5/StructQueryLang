@@ -11,3 +11,12 @@ DIFFERENT WAYS TO ADD CONSTRAINTS
     1. While Table CREATE
     2. After Table Creation, Table ALTER  
 """
+
+
+-- Adding NotNULL Constraint
+CREATE TABLE EmployeeSalaryTable(
+    EmployeeID VARCHAR NOT NULL,
+    EmployeeName VARCHAR NOT NULL,
+    Department VARCHAR,
+    Salary BIGINT
+)
